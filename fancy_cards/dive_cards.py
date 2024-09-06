@@ -20,15 +20,17 @@ def create_dive_image(images, dive):
     card = images["template"].copy()
     draw = ImageDraw.Draw(card)
 
-    draw.text((20, 20), dive["label"], font_size=52, fill="#0146FF")
+    draw.text((20, 20), dive["group"], font_size=52, fill="#0146FF")
+    draw.text((100, 80), dive["sub_group"], font_size=42, fill="#FF0000")
 
-    rot_y = 225
-    positions_y = 550
+    rot_y = 250
+    positions_y = 575
+    and_y = 400
 
     is_not_free_dive = dive.isna()["free"]
 
     draw.text(
-        (int(card.width/2), 375),
+        (int(card.width/2), and_y),
         "and" if is_not_free_dive else "and any 2 of",
         font_size=52,
         fill="#00DDFF",

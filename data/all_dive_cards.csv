@@ -1,124 +1,124 @@
-label,som,twist,str,pike,tuck,free
-Forward,0.0,,1.6,1.5,1.4,
-Backward,0.0,,1.9,1.8,1.7,
-Reverse,0.0,,2.0,1.9,1.8,
-Inward,0.0,,1.7,1.4,1.3,
-Twisting (Forward),0.0,0.5,2.0,1.9,1.8,
-Twisting (Forward),0.0,1.0,2.2,2.1,,
-Armstand,0.0,,1.6,,,
-Forward,1.0,,1.8,1.7,1.6,
-Forward,1.5,,1.9,1.6,1.5,
-Forward,2.0,,2.5,2.2,2.1,
-Forward,2.5,,2.7,2.3,2.1,
-Forward,3.0,,,3.0,2.7,
-Forward,3.5,,,3.0,2.7,
-Forward,4.0,,,4.1,3.7,
-Forward,4.5,,,4.1,3.7,
-Forward,5.5,,,,4.7,
-Backward,1.0,,1.9,1.8,1.7,
-Backward,1.5,,2.4,2.2,1.9,
-Backward,2.0,,2.6,2.4,2.1,
-Backward,2.5,,3.3,2.9,2.7,
-Backward,3.0,,,3.0,2.7,
-Backward,3.5,,,3.6,3.3,
-Backward,4.0,,,4.1,3.8,
-Backward,4.5,,,4.5,4.2,
-Reverse,1.0,,2.0,1.9,1.8,
-Reverse,1.5,,2.6,2.3,2.0,
-Reverse,2.0,,2.8,2.5,2.2,
-Reverse,2.5,,3.4,3.0,2.8,
-Reverse,3.0,,,3.2,2.9,
-Reverse,3.5,,,3.7,3.4,
-Reverse,4.0,,,4.4,4.1,
-Reverse,4.5,,,4.8,4.5,
-Inward,1.0,,1.9,1.6,1.5,
-Inward,1.5,,,2.0,1.8,
-Inward,2.0,,,2.6,2.4,
-Inward,2.5,,,2.8,2.5,
-Inward,3.0,,,3.5,3.2,
-Inward,3.5,,,3.5,3.2,
-Inward,4.0,,,4.4,4.1,
-Inward,4.5,,,4.4,4.1,
-Twisting (Forward),1.0,0.5,,,,1.9
-Twisting (Forward),1.0,1.0,,,,2.1
-Twisting (Forward),1.0,2.0,,,,2.5
-Twisting (Forward),1.5,0.5,,,,1.9
-Twisting (Forward),1.5,1.0,,,,2.1
-Twisting (Forward),1.5,2.0,,,,2.5
-Twisting (Forward),1.5,3.0,,,,3.0
-Twisting (Forward),1.5,4.0,,,,3.4
-Twisting (Forward),2.5,0.5,,2.9,2.7,
-Twisting (Forward),2.5,1.0,,3.3,3.1,
-Twisting (Forward),2.5,2.0,,3.8,3.6,
-Twisting (Forward),3.5,3.5,,3.6,3.3,
-Twisting (Backward),0.0,0.5,2.0,1.9,1.8,
-Twisting (Backward),0.0,1.0,2.2,,,
-Twisting (Backward),1.0,0.5,,,,1.9
-Twisting (Backward),1.0,1.0,,,,2.1
-Twisting (Backward),1.0,1.5,,,,2.5
-Twisting (Backward),1.0,2.5,,,,2.9
-Twisting (Backward),1.5,0.5,,,,2.0
-Twisting (Backward),1.5,1.5,,,,2.4
-Twisting (Backward),1.5,2.5,,,,2.8
-Twisting (Backward),1.5,3.5,,,,3.3
-Twisting (Backward),1.5,4.5,,,,3.7
-Twisting (Backward),2.5,0.5,,2.6,2.4,
-Twisting (Backward),2.5,1.5,,3.2,3.0,
-Twisting (Backward),2.5,2.5,,3.6,3.4,
-Twisting (Backward),2.5,3.5,,4.1,3.9,
-Twisting (Backward),3.5,0.5,,3.2,2.9,
-Twisting (Backward),3.5,1.5,,3.8,3.5,
-Twisting (Backward),3.5,2.5,,4.2,3.9,
-Twisting (Reverse),0.0,0.5,2.1,2.0,1.9,
-Twisting (Reverse),0.0,1.0,2.3,,,
-Twisting (Reverse),1.0,0.5,,,,2.0
-Twisting (Reverse),1.0,1.0,,,,2.2
-Twisting (Reverse),1.0,1.5,,,,2.6
-Twisting (Reverse),1.0,2.5,,,,3.0
-Twisting (Reverse),1.5,0.5,,,,2.1
-Twisting (Reverse),1.5,1.5,,,,2.5
-Twisting (Reverse),1.5,2.5,,,,2.9
-Twisting (Reverse),1.5,3.5,,,,3.4
-Twisting (Reverse),1.5,4.5,,,,3.8
-Twisting (Reverse),2.5,0.5,,2.7,2.5,
-Twisting (Reverse),2.5,1.5,,3.3,3.1,
-Twisting (Reverse),2.5,2.5,,3.7,3.5,
-Twisting (Reverse),3.5,0.5,,3.3,3.0,
-Twisting (Reverse),3.5,1.5,,,3.6,
-Twisting (Reverse),3.5,2.5,,,4.0,
-Twisting (Inward),0.0,0.5,1.9,1.6,1.5,
-Twisting (Inward),0.0,1.0,2.1,1.8,1.7,
-Twisting (Inward),1.0,0.5,,,,1.8
-Twisting (Inward),1.0,1.0,,,,2.0
-Twisting (Inward),1.5,1.0,,,,2.3
-Twisting (Inward),1.5,2.0,,,,2.7
-Twisting (Inward),1.5,3.0,,,,3.4
-Armstand (Forward),0.5,,2.0,1.9,1.7,
-Armstand (Forward),1.0,,2.0,1.9,1.7,
-Armstand (Forward),2.0,,,2.4,2.1,
-Armstand (Forward),3.0,,,3.3,3.1,
-Armstand (Backward),0.5,,1.9,1.8,1.6,
-Armstand (Backward),1.0,,2.3,2.2,2.0,
-Armstand (Backward),1.5,,,2.2,1.9,
-Armstand (Backward),2.0,,3.0,2.8,2.5,
-Armstand (Backward),3.0,,,3.5,3.3,
-Armstand (Backward),4.0,,,4.7,4.5,
-Armstand (Reverse),0.5,,2.0,1.9,1.7,
-Armstand (Reverse),1.0,,,2.3,2.1,
-Armstand (Reverse),1.5,,,2.3,2.0,
-Armstand (Reverse),2.0,,,2.9,2.6,
-Armstand (Reverse),3.0,,,3.6,3.4,
-Armstand (Reverse),4.0,,,4.8,4.6,
-Armstand (Forward),1.0,1.0,,,,2.6
-Armstand (Forward),1.0,2.0,,,,2.9
-Armstand (Forward),2.0,1.0,,,,3.1
-Armstand (Forward),2.0,2.0,,,,3.4
-Armstand (Forward),3.0,1.0,,,3.9,
-Armstand (Backward),1.0,0.5,,,,1.8
-Armstand (Backward),2.0,0.5,,2.7,2.4,
-Armstand (Backward),2.0,1.5,,,,3.2
-Armstand (Backward),2.0,2.5,,,,3.6
-Armstand (Backward),2.0,3.5,,,,4.0
-Armstand (Backward),3.0,0.5,,3.4,3.2,
-Armstand (Backward),3.0,1.5,,4.2,4.0,
-Armstand (Backward),3.0,2.5,,4.6,4.4,
+group,sub_group,som,twist,str,pike,tuck,free,image
+Forward,,0.0,,1.6,1.5,1.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_0.jpg
+Backward,,0.0,,1.9,1.8,1.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_1.jpg
+Reverse,,0.0,,2.0,1.9,1.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_2.jpg
+Inward,,0.0,,1.7,1.4,1.3,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_3.jpg
+Twisting,Forward,0.0,0.5,2.0,1.9,1.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_4.jpg
+Twisting,Forward,0.0,1.0,2.2,2.1,,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_5.jpg
+Armstand,,0.0,,1.6,,,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_6.jpg
+Forward,,1.0,,1.8,1.7,1.6,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_7.jpg
+Forward,,1.5,,1.9,1.6,1.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_8.jpg
+Forward,,2.0,,2.5,2.2,2.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_9.jpg
+Forward,,2.5,,2.7,2.3,2.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_10.jpg
+Forward,,3.0,,,3.0,2.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_11.jpg
+Forward,,3.5,,,3.0,2.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_12.jpg
+Forward,,4.0,,,4.1,3.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_13.jpg
+Forward,,4.5,,,4.1,3.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_14.jpg
+Forward,,5.5,,,,4.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_15.jpg
+Backward,,1.0,,1.9,1.8,1.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_16.jpg
+Backward,,1.5,,2.4,2.2,1.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_17.jpg
+Backward,,2.0,,2.6,2.4,2.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_18.jpg
+Backward,,2.5,,3.3,2.9,2.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_19.jpg
+Backward,,3.0,,,3.0,2.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_20.jpg
+Backward,,3.5,,,3.6,3.3,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_21.jpg
+Backward,,4.0,,,4.1,3.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_22.jpg
+Backward,,4.5,,,4.5,4.2,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_23.jpg
+Reverse,,1.0,,2.0,1.9,1.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_24.jpg
+Reverse,,1.5,,2.6,2.3,2.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_25.jpg
+Reverse,,2.0,,2.8,2.5,2.2,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_26.jpg
+Reverse,,2.5,,3.4,3.0,2.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_27.jpg
+Reverse,,3.0,,,3.2,2.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_28.jpg
+Reverse,,3.5,,,3.7,3.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_29.jpg
+Reverse,,4.0,,,4.4,4.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_30.jpg
+Reverse,,4.5,,,4.8,4.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_31.jpg
+Inward,,1.0,,1.9,1.6,1.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_32.jpg
+Inward,,1.5,,,2.0,1.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_33.jpg
+Inward,,2.0,,,2.6,2.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_34.jpg
+Inward,,2.5,,,2.8,2.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_35.jpg
+Inward,,3.0,,,3.5,3.2,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_36.jpg
+Inward,,3.5,,,3.5,3.2,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_37.jpg
+Inward,,4.0,,,4.4,4.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_38.jpg
+Inward,,4.5,,,4.4,4.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_39.jpg
+Twisting,Forward,1.0,0.5,,,,1.9,https://jsofra.github.io/fancy/images/dive_cards/dive_card_40.jpg
+Twisting,Forward,1.0,1.0,,,,2.1,https://jsofra.github.io/fancy/images/dive_cards/dive_card_41.jpg
+Twisting,Forward,1.0,2.0,,,,2.5,https://jsofra.github.io/fancy/images/dive_cards/dive_card_42.jpg
+Twisting,Forward,1.5,0.5,,,,1.9,https://jsofra.github.io/fancy/images/dive_cards/dive_card_43.jpg
+Twisting,Forward,1.5,1.0,,,,2.1,https://jsofra.github.io/fancy/images/dive_cards/dive_card_44.jpg
+Twisting,Forward,1.5,2.0,,,,2.5,https://jsofra.github.io/fancy/images/dive_cards/dive_card_45.jpg
+Twisting,Forward,1.5,3.0,,,,3.0,https://jsofra.github.io/fancy/images/dive_cards/dive_card_46.jpg
+Twisting,Forward,1.5,4.0,,,,3.4,https://jsofra.github.io/fancy/images/dive_cards/dive_card_47.jpg
+Twisting,Forward,2.5,0.5,,2.9,2.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_48.jpg
+Twisting,Forward,2.5,1.0,,3.3,3.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_49.jpg
+Twisting,Forward,2.5,2.0,,3.8,3.6,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_50.jpg
+Twisting,Forward,3.5,3.5,,3.6,3.3,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_51.jpg
+Twisting,Backward,0.0,0.5,2.0,1.9,1.8,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_52.jpg
+Twisting,Backward,0.0,1.0,2.2,,,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_53.jpg
+Twisting,Backward,1.0,0.5,,,,1.9,https://jsofra.github.io/fancy/images/dive_cards/dive_card_54.jpg
+Twisting,Backward,1.0,1.0,,,,2.1,https://jsofra.github.io/fancy/images/dive_cards/dive_card_55.jpg
+Twisting,Backward,1.0,1.5,,,,2.5,https://jsofra.github.io/fancy/images/dive_cards/dive_card_56.jpg
+Twisting,Backward,1.0,2.5,,,,2.9,https://jsofra.github.io/fancy/images/dive_cards/dive_card_57.jpg
+Twisting,Backward,1.5,0.5,,,,2.0,https://jsofra.github.io/fancy/images/dive_cards/dive_card_58.jpg
+Twisting,Backward,1.5,1.5,,,,2.4,https://jsofra.github.io/fancy/images/dive_cards/dive_card_59.jpg
+Twisting,Backward,1.5,2.5,,,,2.8,https://jsofra.github.io/fancy/images/dive_cards/dive_card_60.jpg
+Twisting,Backward,1.5,3.5,,,,3.3,https://jsofra.github.io/fancy/images/dive_cards/dive_card_61.jpg
+Twisting,Backward,1.5,4.5,,,,3.7,https://jsofra.github.io/fancy/images/dive_cards/dive_card_62.jpg
+Twisting,Backward,2.5,0.5,,2.6,2.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_63.jpg
+Twisting,Backward,2.5,1.5,,3.2,3.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_64.jpg
+Twisting,Backward,2.5,2.5,,3.6,3.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_65.jpg
+Twisting,Backward,2.5,3.5,,4.1,3.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_66.jpg
+Twisting,Backward,3.5,0.5,,3.2,2.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_67.jpg
+Twisting,Backward,3.5,1.5,,3.8,3.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_68.jpg
+Twisting,Backward,3.5,2.5,,4.2,3.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_69.jpg
+Twisting,Reverse,0.0,0.5,2.1,2.0,1.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_70.jpg
+Twisting,Reverse,0.0,1.0,2.3,,,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_71.jpg
+Twisting,Reverse,1.0,0.5,,,,2.0,https://jsofra.github.io/fancy/images/dive_cards/dive_card_72.jpg
+Twisting,Reverse,1.0,1.0,,,,2.2,https://jsofra.github.io/fancy/images/dive_cards/dive_card_73.jpg
+Twisting,Reverse,1.0,1.5,,,,2.6,https://jsofra.github.io/fancy/images/dive_cards/dive_card_74.jpg
+Twisting,Reverse,1.0,2.5,,,,3.0,https://jsofra.github.io/fancy/images/dive_cards/dive_card_75.jpg
+Twisting,Reverse,1.5,0.5,,,,2.1,https://jsofra.github.io/fancy/images/dive_cards/dive_card_76.jpg
+Twisting,Reverse,1.5,1.5,,,,2.5,https://jsofra.github.io/fancy/images/dive_cards/dive_card_77.jpg
+Twisting,Reverse,1.5,2.5,,,,2.9,https://jsofra.github.io/fancy/images/dive_cards/dive_card_78.jpg
+Twisting,Reverse,1.5,3.5,,,,3.4,https://jsofra.github.io/fancy/images/dive_cards/dive_card_79.jpg
+Twisting,Reverse,1.5,4.5,,,,3.8,https://jsofra.github.io/fancy/images/dive_cards/dive_card_80.jpg
+Twisting,Reverse,2.5,0.5,,2.7,2.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_81.jpg
+Twisting,Reverse,2.5,1.5,,3.3,3.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_82.jpg
+Twisting,Reverse,2.5,2.5,,3.7,3.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_83.jpg
+Twisting,Reverse,3.5,0.5,,3.3,3.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_84.jpg
+Twisting,Reverse,3.5,1.5,,,3.6,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_85.jpg
+Twisting,Reverse,3.5,2.5,,,4.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_86.jpg
+Twisting,Inward,0.0,0.5,1.9,1.6,1.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_87.jpg
+Twisting,Inward,0.0,1.0,2.1,1.8,1.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_88.jpg
+Twisting,Inward,1.0,0.5,,,,1.8,https://jsofra.github.io/fancy/images/dive_cards/dive_card_89.jpg
+Twisting,Inward,1.0,1.0,,,,2.0,https://jsofra.github.io/fancy/images/dive_cards/dive_card_90.jpg
+Twisting,Inward,1.5,1.0,,,,2.3,https://jsofra.github.io/fancy/images/dive_cards/dive_card_91.jpg
+Twisting,Inward,1.5,2.0,,,,2.7,https://jsofra.github.io/fancy/images/dive_cards/dive_card_92.jpg
+Twisting,Inward,1.5,3.0,,,,3.4,https://jsofra.github.io/fancy/images/dive_cards/dive_card_93.jpg
+Armstand,Forward,0.5,,2.0,1.9,1.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_94.jpg
+Armstand,Forward,1.0,,2.0,1.9,1.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_95.jpg
+Armstand,Forward,2.0,,,2.4,2.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_96.jpg
+Armstand,Forward,3.0,,,3.3,3.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_97.jpg
+Armstand,Backward,0.5,,1.9,1.8,1.6,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_98.jpg
+Armstand,Backward,1.0,,2.3,2.2,2.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_99.jpg
+Armstand,Backward,1.5,,,2.2,1.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_100.jpg
+Armstand,Backward,2.0,,3.0,2.8,2.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_101.jpg
+Armstand,Backward,3.0,,,3.5,3.3,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_102.jpg
+Armstand,Backward,4.0,,,4.7,4.5,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_103.jpg
+Armstand,Reverse,0.5,,2.0,1.9,1.7,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_104.jpg
+Armstand,Reverse,1.0,,,2.3,2.1,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_105.jpg
+Armstand,Reverse,1.5,,,2.3,2.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_106.jpg
+Armstand,Reverse,2.0,,,2.9,2.6,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_107.jpg
+Armstand,Reverse,3.0,,,3.6,3.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_108.jpg
+Armstand,Reverse,4.0,,,4.8,4.6,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_109.jpg
+Armstand,Forward,1.0,1.0,,,,2.6,https://jsofra.github.io/fancy/images/dive_cards/dive_card_110.jpg
+Armstand,Forward,1.0,2.0,,,,2.9,https://jsofra.github.io/fancy/images/dive_cards/dive_card_111.jpg
+Armstand,Forward,2.0,1.0,,,,3.1,https://jsofra.github.io/fancy/images/dive_cards/dive_card_112.jpg
+Armstand,Forward,2.0,2.0,,,,3.4,https://jsofra.github.io/fancy/images/dive_cards/dive_card_113.jpg
+Armstand,Forward,3.0,1.0,,,3.9,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_114.jpg
+Armstand,Backward,1.0,0.5,,,,1.8,https://jsofra.github.io/fancy/images/dive_cards/dive_card_115.jpg
+Armstand,Backward,2.0,0.5,,2.7,2.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_116.jpg
+Armstand,Backward,2.0,1.5,,,,3.2,https://jsofra.github.io/fancy/images/dive_cards/dive_card_117.jpg
+Armstand,Backward,2.0,2.5,,,,3.6,https://jsofra.github.io/fancy/images/dive_cards/dive_card_118.jpg
+Armstand,Backward,2.0,3.5,,,,4.0,https://jsofra.github.io/fancy/images/dive_cards/dive_card_119.jpg
+Armstand,Backward,3.0,0.5,,3.4,3.2,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_120.jpg
+Armstand,Backward,3.0,1.5,,4.2,4.0,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_121.jpg
+Armstand,Backward,3.0,2.5,,4.6,4.4,,https://jsofra.github.io/fancy/images/dive_cards/dive_card_122.jpg
