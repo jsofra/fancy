@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fancy-cards"
+version = "0.1.0"
+description = ""
+authors = ["James Sofra <james.sofra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.4.0"
+ipykernel = "^6.29.5"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

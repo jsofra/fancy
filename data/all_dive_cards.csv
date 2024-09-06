@@ -1,0 +1,124 @@
+label,som,twist,str,pike,tuck,free
+Forward,0.0,,1.6,1.5,1.4,
+Backward,0.0,,1.9,1.8,1.7,
+Reverse,0.0,,2.0,1.9,1.8,
+Inward,0.0,,1.7,1.4,1.3,
+Twisting (Forward),0.0,0.5,2.0,1.9,1.8,
+Twisting (Forward),0.0,1.0,2.2,2.1,,
+Armstand,0.0,,1.6,,,
+Forward,1.0,,1.8,1.7,1.6,
+Forward,1.5,,1.9,1.6,1.5,
+Forward,2.0,,2.5,2.2,2.1,
+Forward,2.5,,2.7,2.3,2.1,
+Forward,3.0,,,3.0,2.7,
+Forward,3.5,,,3.0,2.7,
+Forward,4.0,,,4.1,3.7,
+Forward,4.5,,,4.1,3.7,
+Forward,5.5,,,,4.7,
+Backward,1.0,,1.9,1.8,1.7,
+Backward,1.5,,2.4,2.2,1.9,
+Backward,2.0,,2.6,2.4,2.1,
+Backward,2.5,,3.3,2.9,2.7,
+Backward,3.0,,,3.0,2.7,
+Backward,3.5,,,3.6,3.3,
+Backward,4.0,,,4.1,3.8,
+Backward,4.5,,,4.5,4.2,
+Reverse,1.0,,2.0,1.9,1.8,
+Reverse,1.5,,2.6,2.3,2.0,
+Reverse,2.0,,2.8,2.5,2.2,
+Reverse,2.5,,3.4,3.0,2.8,
+Reverse,3.0,,,3.2,2.9,
+Reverse,3.5,,,3.7,3.4,
+Reverse,4.0,,,4.4,4.1,
+Reverse,4.5,,,4.8,4.5,
+Inward,1.0,,1.9,1.6,1.5,
+Inward,1.5,,,2.0,1.8,
+Inward,2.0,,,2.6,2.4,
+Inward,2.5,,,2.8,2.5,
+Inward,3.0,,,3.5,3.2,
+Inward,3.5,,,3.5,3.2,
+Inward,4.0,,,4.4,4.1,
+Inward,4.5,,,4.4,4.1,
+Twisting (Forward),1.0,0.5,,,,1.9
+Twisting (Forward),1.0,1.0,,,,2.1
+Twisting (Forward),1.0,2.0,,,,2.5
+Twisting (Forward),1.5,0.5,,,,1.9
+Twisting (Forward),1.5,1.0,,,,2.1
+Twisting (Forward),1.5,2.0,,,,2.5
+Twisting (Forward),1.5,3.0,,,,3.0
+Twisting (Forward),1.5,4.0,,,,3.4
+Twisting (Forward),2.5,0.5,,2.9,2.7,
+Twisting (Forward),2.5,1.0,,3.3,3.1,
+Twisting (Forward),2.5,2.0,,3.8,3.6,
+Twisting (Forward),3.5,3.5,,3.6,3.3,
+Twisting (Backward),0.0,0.5,2.0,1.9,1.8,
+Twisting (Backward),0.0,1.0,2.2,,,
+Twisting (Backward),1.0,0.5,,,,1.9
+Twisting (Backward),1.0,1.0,,,,2.1
+Twisting (Backward),1.0,1.5,,,,2.5
+Twisting (Backward),1.0,2.5,,,,2.9
+Twisting (Backward),1.5,0.5,,,,2.0
+Twisting (Backward),1.5,1.5,,,,2.4
+Twisting (Backward),1.5,2.5,,,,2.8
+Twisting (Backward),1.5,3.5,,,,3.3
+Twisting (Backward),1.5,4.5,,,,3.7
+Twisting (Backward),2.5,0.5,,2.6,2.4,
+Twisting (Backward),2.5,1.5,,3.2,3.0,
+Twisting (Backward),2.5,2.5,,3.6,3.4,
+Twisting (Backward),2.5,3.5,,4.1,3.9,
+Twisting (Backward),3.5,0.5,,3.2,2.9,
+Twisting (Backward),3.5,1.5,,3.8,3.5,
+Twisting (Backward),3.5,2.5,,4.2,3.9,
+Twisting (Reverse),0.0,0.5,2.1,2.0,1.9,
+Twisting (Reverse),0.0,1.0,2.3,,,
+Twisting (Reverse),1.0,0.5,,,,2.0
+Twisting (Reverse),1.0,1.0,,,,2.2
+Twisting (Reverse),1.0,1.5,,,,2.6
+Twisting (Reverse),1.0,2.5,,,,3.0
+Twisting (Reverse),1.5,0.5,,,,2.1
+Twisting (Reverse),1.5,1.5,,,,2.5
+Twisting (Reverse),1.5,2.5,,,,2.9
+Twisting (Reverse),1.5,3.5,,,,3.4
+Twisting (Reverse),1.5,4.5,,,,3.8
+Twisting (Reverse),2.5,0.5,,2.7,2.5,
+Twisting (Reverse),2.5,1.5,,3.3,3.1,
+Twisting (Reverse),2.5,2.5,,3.7,3.5,
+Twisting (Reverse),3.5,0.5,,3.3,3.0,
+Twisting (Reverse),3.5,1.5,,,3.6,
+Twisting (Reverse),3.5,2.5,,,4.0,
+Twisting (Inward),0.0,0.5,1.9,1.6,1.5,
+Twisting (Inward),0.0,1.0,2.1,1.8,1.7,
+Twisting (Inward),1.0,0.5,,,,1.8
+Twisting (Inward),1.0,1.0,,,,2.0
+Twisting (Inward),1.5,1.0,,,,2.3
+Twisting (Inward),1.5,2.0,,,,2.7
+Twisting (Inward),1.5,3.0,,,,3.4
+Armstand (Forward),0.5,,2.0,1.9,1.7,
+Armstand (Forward),1.0,,2.0,1.9,1.7,
+Armstand (Forward),2.0,,,2.4,2.1,
+Armstand (Forward),3.0,,,3.3,3.1,
+Armstand (Backward),0.5,,1.9,1.8,1.6,
+Armstand (Backward),1.0,,2.3,2.2,2.0,
+Armstand (Backward),1.5,,,2.2,1.9,
+Armstand (Backward),2.0,,3.0,2.8,2.5,
+Armstand (Backward),3.0,,,3.5,3.3,
+Armstand (Backward),4.0,,,4.7,4.5,
+Armstand (Reverse),0.5,,2.0,1.9,1.7,
+Armstand (Reverse),1.0,,,2.3,2.1,
+Armstand (Reverse),1.5,,,2.3,2.0,
+Armstand (Reverse),2.0,,,2.9,2.6,
+Armstand (Reverse),3.0,,,3.6,3.4,
+Armstand (Reverse),4.0,,,4.8,4.6,
+Armstand (Forward),1.0,1.0,,,,2.6
+Armstand (Forward),1.0,2.0,,,,2.9
+Armstand (Forward),2.0,1.0,,,,3.1
+Armstand (Forward),2.0,2.0,,,,3.4
+Armstand (Forward),3.0,1.0,,,3.9,
+Armstand (Backward),1.0,0.5,,,,1.8
+Armstand (Backward),2.0,0.5,,2.7,2.4,
+Armstand (Backward),2.0,1.5,,,,3.2
+Armstand (Backward),2.0,2.5,,,,3.6
+Armstand (Backward),2.0,3.5,,,,4.0
+Armstand (Backward),3.0,0.5,,3.4,3.2,
+Armstand (Backward),3.0,1.5,,4.2,4.0,
+Armstand (Backward),3.0,2.5,,4.6,4.4,
