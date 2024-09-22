@@ -12,20 +12,41 @@ def interpose_list(l, item):
     interposed[1::2] = items
     return interposed
 
+
 def paste_centred(paste_to, paste_from, centre_at):
     c_x, c_y = centre_at
     paste_to.paste(paste_from, (c_x - int(paste_from.width/2), c_y - int(paste_from.height/2)))
+
+
+def draw_border(draw, card, colour):
+
+    draw.rounded_rectangle(
+        [(0, 0), card.size],
+        outline=colour,
+        width=20,
+    )
+
+    draw.rounded_rectangle(
+        [(10, 10), (card.size[0]-10, card.size[1]-10)],
+        radius=20,
+        outline="white",
+        width=20,
+        corners=(True, True, True, True)
+    )
+
 
 def create_dive_image(images, dive):
     card = images["template"].copy()
     draw = ImageDraw.Draw(card)
 
+    draw_border(draw, card, "blue")
+
     draw.text((20, 20), dive["group"], font_size=52, fill="#0146FF")
     draw.text((100, 80), dive["sub_group"], font_size=42, fill="#FF0000")
 
     rot_y = 250
-    positions_y = 575
     and_y = 400
+    positions_y = 550
 
     is_not_free_dive = dive.isna()["free"]
 
@@ -65,6 +86,7 @@ def create_dive_image(images, dive):
     else:
         dive["pike"] = dive["free"]
         positions = dive[["str", "pike", "tuck"]].replace({np.nan: None})
+        draw.text((300, 20), "(Free dive)", font_size=42, fill="#05AF00")
 
     position_items = interpose_list(list(positions.items()), ("or", None))
     positions_spacing = int(card.width/(len(position_items)+1))
