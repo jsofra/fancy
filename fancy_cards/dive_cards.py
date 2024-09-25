@@ -35,11 +35,11 @@ def draw_border(draw, card, colour):
     )
 
 
-def create_dive_image(images, dive):
+def create_dive_image(images, dive, border_colour):
     card = images["template"].copy()
     draw = ImageDraw.Draw(card)
 
-    draw_border(draw, card, "blue")
+    draw_border(draw, card, border_colour)
 
     draw.text((20, 20), dive["group"], font_size=52, fill="#0146FF")
     draw.text((100, 80), dive["sub_group"], font_size=42, fill="#FF0000")
@@ -105,7 +105,11 @@ def create_dive_image(images, dive):
     return card
 
 
-def generate_dive_cards(base_dir: str, all_dives: pd.DataFrame):
+def generate_dive_cards(
+    base_dir: str,
+    dives: pd.DataFrame,
+    border_colour
+):
 
     som_img = Image.open(base_dir + "som.jpg")
     twist_img = Image.open(base_dir + "twist.jpg")
@@ -131,17 +135,29 @@ def generate_dive_cards(base_dir: str, all_dives: pd.DataFrame):
         "or": or_img,
     }
 
-    cards = []
+    dives = dives.copy(deep=True)
 
-    for idx, dive in all_dives.iterrows():
-        cards.append((idx, create_dive_image(images, dive)))
+    card_imgs = []
+
+    for _, dive in dives.iterrows():
+        card_imgs.append(create_dive_image(images, dive, border_colour))
+
+    dives["PIL"] = card_imgs
+
+    return dives
+
+
+def write_images(output_dir: str, cards: pd.DataFrame, name: str, base_url: str):
+
+    cards = cards.copy(deep=True)
+
+    file_names = []
+
+    for idx, card in cards.iterrows():
+        file_name = f"{name}_{idx}.jpg"
+        card["PIL"].save(output_dir + file_name, format='JPEG', quality=75)
+        file_names.append(base_url + file_name)
+    
+    cards["image"] = file_names
 
     return cards
-
-
-def write_images(output_dir: str, cards: list, all_dives: pd.DataFrame):
-
-    all_dives = all_dives.copy(deep=True)
-
-    for idx, card in cards:
-        card.save(output_dir + f"dive_card_{idx}.jpg", format='JPEG', quality=75)
