@@ -28,7 +28,7 @@ def draw_border(draw, card, colour):
 
     draw.rounded_rectangle(
         [(10, 10), (card.size[0]-10, card.size[1]-10)],
-        radius=20,
+        radius=30,
         outline="white",
         width=20,
         corners=(True, True, True, True)
