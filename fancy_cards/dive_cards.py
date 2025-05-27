@@ -18,7 +18,7 @@ def paste_centred(paste_to, paste_from, centre_at):
     paste_to.paste(paste_from, (c_x - int(paste_from.width/2), c_y - int(paste_from.height/2)))
 
 
-def draw_border(draw, card, colour):
+def draw_border(draw, card, colour, rank):
 
     draw.rounded_rectangle(
         [(0, 0), card.size],
@@ -34,15 +34,50 @@ def draw_border(draw, card, colour):
         corners=(True, True, True, True)
     )
 
+    # draw rank
+    draw.circle((0, 0), 110, fill=colour)
+    draw.circle(card.size, 110, fill=colour)
 
-def create_dive_image(images, dive, border_colour):
+    draw.text(
+        (45, 45),
+        rank,
+        font_size=52,
+        fill="white",
+        anchor="mm",
+        stroke_width=2
+    )
+
+    draw.text(
+        (card.size[0] - 45, card.size[1] - 45),
+        rank,
+        font_size=52,
+        fill="white",
+        anchor="mm",
+        stroke_width=2
+    )
+
+
+
+def create_dive_image(images, dive):
     card = images["template"].copy()
     draw = ImageDraw.Draw(card)
 
-    draw_border(draw, card, border_colour)
+    dive_group_colors = {
+        "Forward": "#87CEEB",       # Sky Blue
+        "Backward": "#000080",      # Navy Blue
+        "Reverse": "#50C878",       # Emerald Green
+        "Inward": "#DC143C",        # Crimson Red
+        "Twisting": "#8A2BE2",      # Violet Purple
+        "Armstand": "#FFD700"       # Gold
+    }
 
-    draw.text((20, 20), dive["group"], font_size=52, fill="#0146FF")
-    draw.text((100, 80), dive["sub_group"], font_size=42, fill="#FF0000")
+    group_colour = dive_group_colors[dive["group"]]
+    sub_group_colour = dive_group_colors.get(dive["sub_group"])
+
+    draw_border(draw, card, group_colour, str(dive["rank"]))
+
+    draw.text((120, 20), dive["group"], font_size=52, fill=group_colour)
+    draw.text((200, 80), dive["sub_group"], font_size=42, fill=sub_group_colour)
 
     rot_y = 250
     and_y = 400
@@ -65,7 +100,7 @@ def create_dive_image(images, dive, border_colour):
 
     rot_colours = {
         "som": "#FF7C00",
-        "twist": "#CE00FF",
+        "twist": "#8A2BE2",
     }
 
     for (idx, (rot_name, rot_count)) in enumerate(rot_items):
@@ -86,7 +121,7 @@ def create_dive_image(images, dive, border_colour):
     else:
         dive["pike"] = dive["free"]
         positions = dive[["str", "pike", "tuck"]].replace({np.nan: None})
-        draw.text((300, 20), "(Free dive)", font_size=42, fill="#05AF00")
+        draw.text((320, 20), "(Free dive)", font_size=36, fill="#FF7C00")
 
     position_items = interpose_list(list(positions.items()), ("or", None))
     positions_spacing = int(card.width/(len(position_items)+1))
@@ -108,7 +143,6 @@ def create_dive_image(images, dive, border_colour):
 def generate_dive_cards(
     base_dir: str,
     dives: pd.DataFrame,
-    border_colour
 ):
 
     som_img = Image.open(base_dir + "som.jpg")
@@ -140,7 +174,7 @@ def generate_dive_cards(
     card_imgs = []
 
     for _, dive in dives.iterrows():
-        card_imgs.append(create_dive_image(images, dive, border_colour))
+        card_imgs.append(create_dive_image(images, dive))
 
     dives["PIL"] = card_imgs
 
